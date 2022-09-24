@@ -1,0 +1,26 @@
+{
+  "name": "olemiss-bookshare-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon -e .js,.env index.js"
+  },
+  "dependencies": {
+    "amazon-s3-uri": "^0.1.1",
+    "aws-sdk": "^2.1036.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.6",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "license": "MIT"
+}
